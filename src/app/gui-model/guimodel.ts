@@ -197,11 +197,21 @@ export class GuiModel {
                     "type": "newButton",
                     "name": "NewGroup",
                     "icon": "fa-weixin",
-                    "color": "green",
+                    "color": "wisteria",
                     "form": {
                     "form": "GroupForm"
                     }
-                    }
+                    },
+						{
+                            "type": "list",
+                            "icon": "fa-user",
+                            "color": "wisteria",
+                            "search": true,
+                            "url": "/group",
+                            "form": {
+                                "form": "GroupForm"
+                            }
+                        }
                     ]
                 },
                
@@ -227,7 +237,7 @@ export class GuiModel {
 					{
                             "type": "list",
                             "icon": "fa-user",
-                            "color": "blue",
+                            "color": "pink",
                             "search": true,
                             "url": "/friend",
                             "form": {
@@ -247,7 +257,7 @@ export class GuiModel {
                             "type": "newButton",
                             "name": "NewLocation",
                             "icon": "fa-home",
-                            "color": "green",
+                            "color": "yellow",
                             "width": 2,
                             "form": {
                                 "form": "LocationForm"
@@ -257,7 +267,7 @@ export class GuiModel {
                         {
                             "type": "list",
                             "icon": "fa-home",
-                            "color": "blue",
+                            "color": "yellow",
                             "search": true,
                             "url": "/location",
                             "form": {
@@ -267,7 +277,7 @@ export class GuiModel {
 						{
                             "type": "list",
                             "icon": "fa-home",
-                            "color": "blue",
+                            "color": "red",
                             "search": true,
                             "url": "/activity",
                             "form": {
